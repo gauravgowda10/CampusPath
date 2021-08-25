@@ -1,0 +1,14 @@
+# build graph
+loaded graph g
+
+# check graph is built correctly
+g contains: IronMan SpiderMan
+the children of IronMan in g are: SpiderMan(Avengers)
+the children of SpiderMan in g are: IronMan(Avengers)
+
+# check BFS
+path from IronMan to IronMan:
+path from IronMan to SpiderMan:
+IronMan to SpiderMan via Avengers
+path from SpiderMan to IronMan:
+SpiderMan to IronMan via Avengers

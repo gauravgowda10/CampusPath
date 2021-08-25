@@ -1,0 +1,24 @@
+# Tests that a graph, a pair of nodes, an edge between them,
+# a pair of nodes and a single edge can be printed out.
+
+# Create a graph
+created graph pairNodes
+
+# Add a pair of nodes
+added node x to pairNodes
+added node y to pairNodes
+added node z to pairNodes
+added node u to pairNodes
+
+# Add edges
+added edge 1 from x to y in pairNodes
+added edge 2 from y to x in pairNodes
+added edge 3 from x to u in pairNodes
+added edge 4 from x to z in pairNodes
+
+# Print the nodes in the graph
+pairNodes contains: u x y z
+the children of x in pairNodes are: u(3) y(1) z(4)
+the children of y in pairNodes are: x(2)
+the children of z in pairNodes are:
+the children of u in pairNodes are:

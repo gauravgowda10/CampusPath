@@ -1,0 +1,23 @@
+# Tests that adding the same edges multiple times
+
+# Create graph
+created graph duplicateEdges
+
+# Add nodes to duplicateEdges
+added node x to duplicateEdges
+added node y to duplicateEdges
+
+# Add edges to duplicateEdges
+added edge sameXX from x to x in duplicateEdges
+added edge sameYY from y to y in duplicateEdges
+added edge diffXY1 from x to y in duplicateEdges
+
+# Add Duplicate edges to duplicateEdges
+added edge sameXX from x to x in duplicateEdges
+added edge sameYY from y to y in duplicateEdges
+added edge diffXY1 from x to y in duplicateEdges
+
+# List nodes and the outgoing edges
+duplicateEdges contains: x y
+the children of x in duplicateEdges are: x(sameXX) y(diffXY1)
+the children of y in duplicateEdges are: y(sameYY)

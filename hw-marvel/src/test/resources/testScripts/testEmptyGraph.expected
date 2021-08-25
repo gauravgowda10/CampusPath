@@ -1,0 +1,11 @@
+# Test empty graph
+
+# Load graph
+loaded graph empty
+
+# List nodes
+empty contains:
+
+# Find path
+unknown character node1
+unknown character node2

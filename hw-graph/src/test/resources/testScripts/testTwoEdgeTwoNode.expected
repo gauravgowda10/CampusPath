@@ -1,0 +1,17 @@
+# Tests adding two nodes and two edges
+
+# Create a graph
+created graph twoNodeGraph
+
+# Add two nodes
+added node x to twoNodeGraph
+added node y to twoNodeGraph
+
+# Add two edges
+added edge XX from x to x in twoNodeGraph
+added edge XY from x to y in twoNodeGraph
+
+# Print the nodes in the graph
+twoNodeGraph contains: x y
+the children of x in twoNodeGraph are: x(XX) y(XY)
+the children of y in twoNodeGraph are:

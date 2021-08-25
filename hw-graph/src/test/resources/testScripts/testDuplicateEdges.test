@@ -1,0 +1,23 @@
+# Tests that adding the same edges multiple times
+
+# Create graph
+CreateGraph duplicateEdges
+
+# Add nodes to duplicateEdges
+AddNode duplicateEdges x
+AddNode duplicateEdges y
+
+# Add edges to duplicateEdges
+AddEdge duplicateEdges x x sameXX
+AddEdge duplicateEdges y y sameYY
+AddEdge duplicateEdges x y diffXY1
+
+# Add Duplicate edges to duplicateEdges
+AddEdge duplicateEdges x x sameXX
+AddEdge duplicateEdges y y sameYY
+AddEdge duplicateEdges x y diffXY1
+
+# List nodes and the outgoing edges
+ListNodes duplicateEdges
+ListChildren duplicateEdges x
+ListChildren duplicateEdges y

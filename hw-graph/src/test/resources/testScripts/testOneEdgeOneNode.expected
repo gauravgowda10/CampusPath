@@ -1,0 +1,12 @@
+# Create a graph
+created graph oneEdgeOneNode
+
+# Add a node
+added node x to oneEdgeOneNode
+
+# Add an edge
+added edge label from x to x in oneEdgeOneNode
+
+# Print the nodes in the graph and the outgoing edges from x
+oneEdgeOneNode contains: x
+the children of x in oneEdgeOneNode are: x(label)

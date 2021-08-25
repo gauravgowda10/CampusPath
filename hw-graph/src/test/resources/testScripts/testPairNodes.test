@@ -1,0 +1,24 @@
+# Tests that a graph, a pair of nodes, an edge between them,
+# a pair of nodes and a single edge can be printed out.
+
+# Create a graph
+CreateGraph pairNodes
+
+# Add a pair of nodes
+AddNode pairNodes x
+AddNode pairNodes y
+AddNode pairNodes z
+AddNode pairNodes u
+
+# Add edges
+AddEdge pairNodes x y 1
+AddEdge pairNodes y x 2
+AddEdge pairNodes x u 3
+AddEdge pairNodes x z 4
+
+# Print the nodes in the graph
+ListNodes pairNodes
+ListChildren pairNodes x
+ListChildren pairNodes y
+ListChildren pairNodes z
+ListChildren pairNodes u

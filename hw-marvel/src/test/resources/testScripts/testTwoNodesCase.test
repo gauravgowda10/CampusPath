@@ -1,0 +1,12 @@
+# build graph
+LoadGraph g TwoNodes.tsv
+
+# check graph is built correctly
+ListNodes g
+ListChildren g IronMan
+ListChildren g SpiderMan
+
+# check BFS
+FindPath g IronMan IronMan
+FindPath g IronMan SpiderMan
+FindPath g SpiderMan IronMan

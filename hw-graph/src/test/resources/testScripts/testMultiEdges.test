@@ -1,0 +1,21 @@
+# Tests adding two nodes and six edges to graph
+
+# Create a graph
+CreateGraph multiEdgesGraph
+
+# Add two nodes
+AddNode multiEdgesGraph x
+AddNode multiEdgesGraph y
+
+# Add six edges
+AddEdge multiEdgesGraph x x sameXX
+AddEdge multiEdgesGraph y y sameYY
+AddEdge multiEdgesGraph x y diffXY1
+AddEdge multiEdgesGraph x y diffXY2
+AddEdge multiEdgesGraph y x diffYX1
+AddEdge multiEdgesGraph y x diffYX2
+
+# Print the nodes and edges in the graph
+ListNodes multiEdgesGraph
+ListChildren multiEdgesGraph x
+ListChildren multiEdgesGraph y

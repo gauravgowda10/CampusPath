@@ -1,0 +1,17 @@
+# test BFS on reflexive case
+
+# build the graph
+loaded graph g
+
+# find the shortest path Spiderman to CaptainAmerica
+path from Spiderman to CaptainAmerica:
+Spiderman to IronMan via IronMan
+IronMan to CaptainAmerica via Avengers
+
+# find the shortest path CaptainAmerica to Spiderman
+path from CaptainAmerica to Spiderman:
+CaptainAmerica to IronMan via Avengers
+IronMan to Spiderman via IronMan
+
+# find the shortest path CaptainAmerica to CaptainAmerica
+path from CaptainAmerica to CaptainAmerica:

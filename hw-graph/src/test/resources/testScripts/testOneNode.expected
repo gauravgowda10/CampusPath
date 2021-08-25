@@ -1,0 +1,11 @@
+# Tests that a node can be added.
+
+# Create a graph
+created graph oneNodeGraph
+
+# Add a node
+added node head to oneNodeGraph
+
+# Print the nodes in the graph
+oneNodeGraph contains: head
+the children of head in oneNodeGraph are:

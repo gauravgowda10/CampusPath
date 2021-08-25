@@ -1,0 +1,17 @@
+# Tests adding two nodes and two edges
+
+# Create a graph
+CreateGraph twoNodeGraph
+
+# Add two nodes
+AddNode twoNodeGraph x
+AddNode twoNodeGraph y
+
+# Add two edges
+AddEdge twoNodeGraph x x XX
+AddEdge twoNodeGraph x y XY
+
+# Print the nodes in the graph
+ListNodes twoNodeGraph
+ListChildren twoNodeGraph x
+ListChildren twoNodeGraph y

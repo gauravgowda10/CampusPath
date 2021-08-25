@@ -1,0 +1,21 @@
+# Tests adding two nodes and six edges to graph
+
+# Create a graph
+created graph multiEdgesGraph
+
+# Add two nodes
+added node x to multiEdgesGraph
+added node y to multiEdgesGraph
+
+# Add six edges
+added edge sameXX from x to x in multiEdgesGraph
+added edge sameYY from y to y in multiEdgesGraph
+added edge diffXY1 from x to y in multiEdgesGraph
+added edge diffXY2 from x to y in multiEdgesGraph
+added edge diffYX1 from y to x in multiEdgesGraph
+added edge diffYX2 from y to x in multiEdgesGraph
+
+# Print the nodes and edges in the graph
+multiEdgesGraph contains: x y
+the children of x in multiEdgesGraph are: x(sameXX) y(diffXY1) y(diffXY2)
+the children of y in multiEdgesGraph are: x(diffYX1) x(diffYX2) y(sameYY)

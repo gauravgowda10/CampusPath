@@ -1,0 +1,17 @@
+# Tests that adding the same nodes multiple times does not create two of the same nodes in the graph
+
+# Create graph
+created graph duplicateNodes
+
+# Add nodes to duplicateNodes
+added node x to duplicateNodes
+added node y to duplicateNodes
+added node z to duplicateNodes
+
+# Add Duplicate nodes to duplicateNodes
+added node x to duplicateNodes
+added node y to duplicateNodes
+added node z to duplicateNodes
+
+# List nodes and the outgoing edges
+duplicateNodes contains: x y z

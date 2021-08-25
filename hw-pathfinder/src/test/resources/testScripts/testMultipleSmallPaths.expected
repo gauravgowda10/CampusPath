@@ -1,0 +1,37 @@
+# Find a path with Dijkstra's algorithm
+
+created graph simpleGraph
+
+added node A to simpleGraph
+added node B to simpleGraph
+added node C to simpleGraph
+added node D to simpleGraph
+added node E to simpleGraph
+added node F to simpleGraph
+added node G to simpleGraph
+added node H to simpleGraph
+added node I to simpleGraph
+added node J to simpleGraph
+added node K to simpleGraph
+added node L to simpleGraph
+added node M to simpleGraph
+added node N to simpleGraph
+
+added edge 10.000 from A to B in simpleGraph
+added edge 1.000 from A to C in simpleGraph
+added edge 1.000 from C to D in simpleGraph
+added edge 1.000 from D to E in simpleGraph
+added edge 1.000 from E to F in simpleGraph
+added edge 1.000 from F to G in simpleGraph
+added edge 1.000 from G to H in simpleGraph
+added edge 1.000 from H to I in simpleGraph
+added edge 1.000 from I to J in simpleGraph
+added edge 1.000 from J to K in simpleGraph
+added edge 1.000 from K to L in simpleGraph
+added edge 1.000 from L to M in simpleGraph
+added edge 1.000 from M to N in simpleGraph
+added edge 1.000 from N to B in simpleGraph
+
+path from A to B:
+A to B with weight 10.000
+total cost: 10.000

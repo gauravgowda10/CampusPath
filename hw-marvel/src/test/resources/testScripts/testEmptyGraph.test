@@ -1,0 +1,10 @@
+# Test empty graph
+
+# Load graph
+LoadGraph empty empty.tsv
+
+# List nodes
+ListNodes empty
+
+# Find path
+FindPath empty node1 node2
